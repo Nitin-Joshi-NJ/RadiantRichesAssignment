@@ -1,38 +1,249 @@
-.App {
-  text-align: center;
+body{
+  background-color: #FBFCFD;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid{
+  background-color: #212731;
+  height:auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.nav_font{
+  font-family: Inter;
+  color:#D1D6DA;
+  font-weight: 400;
+  font-size: 1.5vw;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search_icon{
+  height: 28px;
+  position: relative;
+  bottom: 2px;
+}
+
+.content{
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading{
+  font-family: Inter;
+  font-size: 3vw;
+}
+
+.left_span{
+  font-family: Inter;
+  font-size: 1vw;
+  font-weight: 400;
+  color: #4B5665;
+  margin-left: 5px;
+}
+
+.main_div{
+  display: flex;
+}
+
+.right_span{
+  font-family: Inter;
+  font-size: 1vw;
+  font-weight: 400;
+  color: #4B5665;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.options{
+  font-family: Inter;
+  font-weight: 400;
+  color: #4B5665;
+}
+
+.options span{
+  padding: 0.5vw;
+  background-color:#FFFFFF;
+  margin-left: 10px;
+  border-radius: 12px;
+  font-size: 1vw;
+}
+
+.breadcrumb {
+  display: flex;
+  padding: 0;
+  margin: 10px 15px;
+}
+
+.breadcrumb-item {
+  margin-right: 5px;
+}
+
+.breadcrumb-item:last-child {
+  margin-right: 0;
+}
+
+.breadcrumb-item a {
+  font-family:Inter;
+  text-decoration: none;
+  color: #4B5665;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.content_container1{
+  margin-top: 30px;
+  width: 100%;
+  background-color: #FFFFFF;
+  height:fit-content;
+  margin-bottom: 5vh;
+}
+
+.content_container1 .best_price{
+  font-family: Inter;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 1.3vw;
+  background-color: #FF7724;
+  color: #FFFFFF;
+  border-radius: 0px 8px 8px 0px;
+  
+}
+.builder1_img{
+  display: flex;
+  align-items: center;
+}
+.builder1_img img{
+  width: 12vw;
+  padding: 2vw;
+}
+
+.builder1_container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.builder1_text{
+  padding: 0.5vw;
+font-family: Inter;
+font-size: 1.2vw;
+font-weight: 400;
+}
+
+.rating{
+  margin: 0.8vw;
+  padding: 0.8vw;
+  height: fit-content;
+  font-family: Inter;
+  font-size: 1.4vw;
+  background-color: #F3F9FF;
+  color: #074786;
+}
+.rating b{
+  font-size: 2vw;
+}
+
+button{
+  width: 11vw;
+  background-color: black;
+}
+
+.related_deals{
+  font-family: Inter;
+font-size: 2.5vw;
+font-weight: 400;
+color:#2C384A;
+}
+
+.WebBuilder1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.builder1_offer{
+  padding: 0.5vw;
+  font-family: Inter;
+  font-size: 1.2vw;
+  font-weight: 400;
+  color:#074786;
+}
+
+.builder1_offer span{
+  background-color: #F2F4F7;
+  padding: 0.4vw;
+  border-radius: 4px;
+}
+.builder1_support{
+  color:#626E79;
+  font-family: Inter;
+font-size: 1.2vw;
+font-weight: 400;
+}
+
+.builder1_price{
+  color:#5C6874;
+  font-size: 1.7vw;
+
+}
+.builder1_originalPrice{
+  color:#9FA9B3;
+  font-size: 1.2vw;
+}
+
+.builder1_discount{
+  color:#EF4C5D;
+  font-size: 1.2vw;
+}
+
+.builder1_deals{
+  background-color: #FFFFFF;
+  margin-bottom: 5vh;
+  margin-right: 1vw;
+}
+
+.signup{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6vh;
+  margin-top: 2vh;
+}
+.special_deals{
+  color:#5C6874;
+  font-family: Inter;
+font-size: 1.8vw;
+font-weight: 400;
+
+}
+
+.container_footer{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: #212731;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.categories{
+  color:#B6BDC4;
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.country{
+  color:#B6BDC4;
+  font-size: 2.5vh;
+  font-weight: 400;
+  padding-top: 15vh;
+}
+
+.categories h6{
+  font-family: Inter;
+font-size: 2vw;
+font-weight: 400;
+color:#FFFFFF;
 }
